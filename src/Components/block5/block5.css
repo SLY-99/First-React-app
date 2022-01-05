@@ -1,0 +1,111 @@
+.customer {
+    margin-top: 140px;
+  }
+  
+  .customer__text-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url(../../Assets/images/bg-title.png);
+    background-repeat: no-repeat;
+    background-position: 240px 20px;
+  }
+  
+  .customer__text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FE753F;
+  }
+  
+  .customer__title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    color: #030A1B;
+    margin-top: 10px;
+  }
+  
+  .customer__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 70px;
+  }
+  
+  .customer__box {
+    width: 558px;
+    height: 260px;
+    background: #FFFFFF;
+    border: 2px solid rgba(254, 117, 63, 0.1);
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .customer__box:first-child::before {
+    content: url(../../Assets/images/customer-justin.png);
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+  
+  .customer__box:last-child::before {
+    content: url(../../Assets/images/customer-angel.png);
+    position: absolute;
+    left: 30px;
+    top: 30px;
+  }
+  
+  .customer__box::after {
+    content: url(../../Assets/images/left-quote.png);
+    position: absolute;
+    top: 35px;
+    right: 30px;
+  }
+  
+  .customer__name {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #030A1B;
+    margin-top: 36px;
+    margin-left: 135px;
+  }
+  
+  .customer__bio {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030A1B;
+    opacity: 0.7;
+    margin-top: 5px;
+    margin-left: 135px;
+  }
+  
+  .customer__desc {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030A1B;
+    opacity: 0.7;
+    margin-top: 36px;
+    margin-left: 30px;
+  }
+  
+  .customer__page {
+    display: block;
+    margin: 40px auto 0px auto;
+  }
+  

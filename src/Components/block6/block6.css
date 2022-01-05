@@ -1,0 +1,115 @@
+.subscribe {
+    margin-top: 140px;
+    padding-bottom: 140px;
+  }
+  
+  .subscribe__wrapper {
+    width: 1146px;
+    height: 400px;
+    background: #433E89;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+  }
+  
+  .subscribe__wrapper::before {
+    content: url(../../Assets/images/icons/Ellipse-left.png);
+    position: absolute;
+    top: 30px;
+    left: -110px;
+  }
+  
+  .subscribe__wrapper::after {
+    content: url(../../Assets/images/icons/Ellipse-bottom.png);
+    position: absolute;
+    bottom: -50px;
+    right: 16px;
+  }
+  
+  .subscribe__title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 70px;
+  }
+  
+  .subscribe__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 15px;
+    max-width: 635px;
+  }
+  
+  .subscribe__input {
+    width: 743px;
+    height: 70px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    margin-top: 70px;
+  }
+  
+  .subscribe__input::-webkit-input-placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030A1B;
+    opacity: 0.5;
+  }
+  
+  .subscribe__input:-ms-input-placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030A1B;
+    opacity: 0.5;
+  }
+  
+  .subscribe__input::-ms-input-placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030A1B;
+    opacity: 0.5;
+  }
+  
+  .subscribe__input::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #030A1B;
+    opacity: 0.5;
+  }
+  
+  .subscribe__btn {
+    width: 162px;
+    height: 56px;
+    background: #2E6EFF;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    right: 210px;
+    bottom: 74px;
+  }

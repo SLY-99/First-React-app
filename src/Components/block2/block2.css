@@ -1,0 +1,21 @@
+.partners__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 70px;
+  }
+  
+  .partners__title {
+    text-align: center;
+    background-image: url(../../Assets/images/bg-title.png);
+    background-repeat: no-repeat;
+    background-position: 422px -5px;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    color: #030A1B;
+    margin-top: 100px;
+  }
